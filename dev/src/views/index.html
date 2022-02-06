@@ -31,6 +31,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">  
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!--icons-->
+  <script src="https://kit.fontawesome.com/6911c92bee.js" crossorigin="anonymous"></script>
   <!--css-->
   <link rel="stylesheet" href="../css/styles.css">
 </head>
@@ -58,7 +60,9 @@
     <!--section cards-->
     <section class="cards">
       <article class="cards__card">
-        <div class="cards__icon">icon</div>
+        <header class="cards__header">
+          <img class="cards__icon" src="../../assets/images/icon-access-anywhere.svg" alt="">
+        </header>
         <h2 class="cards__title">Access your files, anywhere</h2>
         <p class="cards__paragraph">
           The ability to use a smartphone, tablet, or computer to access your account means your 
@@ -66,7 +70,9 @@
         </p>
       </article>
       <article class="cards__card">
-        <div class="cards__icon">icon</div>
+        <header class="cards__header">
+          <img class="cards__icon" src="../../assets/images/icon-security.svg" alt="">
+        </header>
         <h2 class="cards__title">Security you can trust</h2>
         <p class="cards__paragraph">
           2-factor authentication and user-controlled encryption are just a couple of the security 
@@ -74,7 +80,9 @@
         </p>
       </article>
       <article class="cards__card">
-        <div class="cards__icon">icon</div>
+        <header class="cards__header">
+          <img  class="cards__icon" src="../../assets/images/icon-collaboration.svg" alt="">
+        </header>
         <h2 class="cards__title">Real-time collaboration</h2>
         <p class="cards__paragraph">
           Securely share files and folders with friends, family and colleagues for live collaboration. 
@@ -82,7 +90,9 @@
         </p>
       </article> 
       <article class="cards__card">
-        <div class="cards__icon">icon</div>
+        <header class="cards__header">
+          <img  class="cards__icon" src="../../assets/images/icon-any-file.svg" alt="">
+        </header>
         <h2 class="cards__title">Store any type of file</h2>
         <p class="cards__paragraph">
           Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
@@ -92,8 +102,8 @@
     </section>
     <!--section fullwidth-->
     <section class="fullwidth">
-      <div class="fullwidth__img">
-        <img src="../../assets/images/illustration-stay-productive.png" alt="">
+      <div class="fullwidth__header">
+        <img class= "fullwidth__img" src="../../assets/images/illustration-stay-productive.png" alt="">
       </div>
       <div class="fullwidth__content">
         <h2 class="fullwidth__title">Stay productive, wherever you are</h2>
@@ -106,19 +116,22 @@
           attachments required.
         </p>
         <a class="fullwidth__link" href="#">See how Fylo works</a>
+        <img class="fullwidth___icon" src="../../assets/images/icon-arrow.svg" alt="">
       </div>
     </section>
     <!--section comments-->
     <section class="comments">
+      <img class="comments__icon" src="../../assets/images/bg-quotes.png" alt="">
       <article class="comments__card">
         <p class="comments__paragraph">
           Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
           become a well-oiled collaboration machine.
         </p>
-        <footer class="comments__footer">
-          <p class="comments__user">
-            <span>Satish Patel</span>
-            <span>Founder & CEO, Huddle</span>
+        <footer class="comments__user">
+          <img class="comments__profile" src="../../assets/images/profile-1.jpg" alt="">
+          <p class="comments__dates">
+            <span class="comments__name">Satish Patel</span>
+            <span class="comments__place">Founder & CEO, Huddle</span>
           </p>
         </footer>
       </article>
@@ -127,10 +140,11 @@
           Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
           become a well-oiled collaboration machine.
         </p>
-        <footer class="comments__footer">
-          <p class="comments__user">
-            <span>Bruce McKenzie</span>
-            <span>Founder & CEO, Huddle</span>
+        <footer class="comments__user">
+          <img class="comments__profile" src="../../assets/images/profile-2.jpg" alt="">
+          <p class="comments__dates">
+            <span class="comments__name">Bruce McKenzie</span>
+            <span class="comments__place">Founder & CEO, Huddle</span>
           </p>
         </footer>
       </article>
@@ -139,10 +153,11 @@
           Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
           become a well-oiled collaboration machine.
         </p>
-        <footer class="comments__footer">
-          <p class="comments__user">
-            <span>Iva Boyd</span>
-            <span>Founder & CEO, Huddle</span>
+        <footer class="comments__user">
+          <img class="comments__profile" src="../../assets/images/profile-3.jpg" alt="">
+          <p class="comments__dates">
+            <span class="comments__name">Iva Boyd</span>
+            <span class="comments__place">Founder & CEO, Huddle</span>
           </p>
         </footer>
         <!--section sign up-->
@@ -160,29 +175,33 @@
       </article>  
     </section>
   </main>
-
-  <nav class="header__nav">
-    <img class="logo header__logo" src="../../assets/images/logo.svg" alt="">
-    <ul class="header__links">
-      <li class="header__link"><a href="#">Features</a></li>
-      <li class="header__link"><a href="#">Team</a></li>
-      <li class="header__link"><a href="#">Sign In</a></li>
-    </ul>
-  </nav>
-
+  <!--footer-->
   <footer class="footer">
     <img class="logo footer__logo" src="../../assets/images/logo.svg" alt="">
     <ul class="contacts footer__contacts">
-      <li class="contacs__item">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-        dolore magna aliqua
+      <li class="contacs__contact">
+        <img class="contacts__icon" src="../../assets/images/icon-location.svg" alt="">
+        <p  class="contacts__info" >
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+          dolore magna aliqua
+        </p>
       </li>
-      <li class="contacs__item">+1-543-123-4567</li>
-      <li  class="contacs__item">example@fylo.com</li>
+      <li class="contacs__contact">
+        <img  class="contacts__icon" src="../../assets/images/icon-phone.svg" alt="">
+        <p class="contacts__info">
+          +1-543-123-4567
+        </p>
+      </li>
+      <li  class="contacs__contact">
+        <img  class="contacts__icon" src="../../assets/images/icon-email.svg" alt="">
+        <p class="contacts__info">
+          example@fylo.com
+        </p>
+      </li>
     </ul>
     <nav class="footer__nav">
       <ul class="footer__links">
-        <li class="footer__link">About Us</li>
+        <li class="footer__link"> About Us</li>
         <li class="footer__link">Jobs</li>
         <li class="footer__link">Press</li>
         <li class="footer__link">Blog</li>
@@ -190,11 +209,24 @@
         <li class="footer__link">Terms</li>
         <li class="footer__link">Privacy</li>
       </ul>
+
     </nav>
     <ul class="footer__icons">
-      <li class="social-media footer__social-media">icon</li>
-      <li class="social-media footer__social-media">icon</li>
-      <li class="social-media footer__social-media">icon</li>
+      <li class="social-media footer__social-media">
+        <div class="social-media__container">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+      </li>
+      <li class="social-media footer__social-media">
+        <div  class="social-media__container">
+          <i class="fab fa-twitter"></i>
+        </div>
+      </li>
+      <li class="social-media footer__social-media">
+        <div  class="social-media__container">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </li>
     </ul>
   </footer>
 </body>
