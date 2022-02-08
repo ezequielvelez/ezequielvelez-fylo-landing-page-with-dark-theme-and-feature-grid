@@ -1,3 +1,34 @@
 .testimonials {
     height: 100vh;
+    
+}
+
+.testimonials__paragraph {
+    font-family: $body-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "testimonials-paragraph-font-size");
+    font-weight: $body-regular-font;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.testimonials__name {
+    font-family: $body-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "testimonials-name-font-size");
+    font-weight: $body-bold-font;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.testimonials__place {
+    font-family: $body-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "testimonials-place-font-size");
+    font-weight: $body-regular-font;
+    text-align: left;
+}
+
+
+.testimonials img {
+    width: 1.5em;
+    height: auto;
+    border-radius: 50%;
 }

@@ -2,6 +2,16 @@
     height: 100vh;
 }
 
+.cards__header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.cards__header img {
+    width: 2.5em;
+    height: auto;
+}
+
 .cards__title {
     font-family: $main-family-font;
     font-size: map-get($map: $font-size-sm, $key: "cards-title-font-size");

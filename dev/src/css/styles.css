@@ -98,6 +98,17 @@ p {
   height: 100vh;
 }
 
+.cards__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cards__header img {
+  width: 2.5em;
+  height: auto;
+}
+
 .cards__title {
   font-family: "Raleway", sans-serif;
   font-size: 1.1em;
@@ -115,6 +126,50 @@ p {
 
 .testimonials {
   height: 100vh;
+}
+
+.testimonials__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.testimonials__name {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 700;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.testimonials__place {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.6em;
+  font-weight: 400;
+  text-align: left;
+}
+
+.testimonials img {
+  width: 1.5em;
+  height: auto;
+  border-radius: 50%;
+}
+
+.sign-up__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sign-up__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
 }
 
 .fullwidth {
@@ -155,7 +210,7 @@ p {
 
 .button {
   font-family: "Raleway", sans-serif;
-  font-size: 0.9em;
+  font-size: 0.8em;
   font-weight: 700;
 }
 
