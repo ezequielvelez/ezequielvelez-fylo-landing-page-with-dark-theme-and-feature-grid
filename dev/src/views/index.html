@@ -34,34 +34,40 @@
   <!--icons-->
   <script src="https://kit.fontawesome.com/6911c92bee.js" crossorigin="anonymous"></script>
   <!--css-->
+  <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/styles.css">
 </head>
+
+
 <body>
+  <!----------------Header------------------->
   <header class="header">
-    <nav class="header__nav">
-      <img class="logo header__logo" src="../../assets/images/logo.svg" alt="">
-      <ul class="header__links">
-        <li class="header__link"><a href="#">Features</a></li>
-        <li class="header__link"><a href="#">Team</a></li>
-        <li class="header__link"><a href="#">Sign In</a></li>
+    <nav class="nav header__nav">
+      <img class="logo nav__logo" src="../../assets/images/logo.svg" alt="">
+      <ul class="nav__links">
+        <li class="nav__link"><a href="#">Features</a></li>
+        <li class="nav__link"><a href="#">Team</a></li>
+        <li class="nav__link"><a href="#">Sign In</a></li>
       </ul>
     </nav>
-    <img class="header__img header__img--display--block" src="../../assets/images/illustration-intro.png" alt="">
-    <div class="header__content">
+    <div class="container container-header">
+      <img class="img" src="../../assets/images/illustration-intro.png" alt="">
       <h1 class="header__title">  All your files in one secure location, accessible anywhere.</h1>
       <p class="header__paragraph">
         Fylo stores all your most important files in one secure location. Access them wherever 
         you need, share and collaborate with friends family, and co-workers.
       </p>
-      <a class="header__button" href="#">Get Started</a>
+      <a class="button header__button" href="#">Get Started</a>
     </div>
   </header>
-  <main class="body">
-    <!--section cards-->
+
+  <!----------------Main----------------------->
+  <main class="main">
+    <!----section cards----->
     <section class="cards">
       <article class="cards__card">
         <header class="cards__header">
-          <img class="cards__icon" src="../../assets/images/icon-access-anywhere.svg" alt="">
+          <img class="icon cards__icon" src="../../assets/images/icon-access-anywhere.svg" alt="">
         </header>
         <h2 class="cards__title">Access your files, anywhere</h2>
         <p class="cards__paragraph">
@@ -71,7 +77,7 @@
       </article>
       <article class="cards__card">
         <header class="cards__header">
-          <img class="cards__icon" src="../../assets/images/icon-security.svg" alt="">
+          <img class="icon cards__icon" src="../../assets/images/icon-security.svg" alt="">
         </header>
         <h2 class="cards__title">Security you can trust</h2>
         <p class="cards__paragraph">
@@ -81,7 +87,7 @@
       </article>
       <article class="cards__card">
         <header class="cards__header">
-          <img  class="cards__icon" src="../../assets/images/icon-collaboration.svg" alt="">
+          <img  class="icon cards__icon" src="../../assets/images/icon-collaboration.svg" alt="">
         </header>
         <h2 class="cards__title">Real-time collaboration</h2>
         <p class="cards__paragraph">
@@ -91,7 +97,7 @@
       </article> 
       <article class="cards__card">
         <header class="cards__header">
-          <img  class="cards__icon" src="../../assets/images/icon-any-file.svg" alt="">
+          <img  class="icon cards__icon" src="../../assets/images/icon-any-file.svg" alt="">
         </header>
         <h2 class="cards__title">Store any type of file</h2>
         <p class="cards__paragraph">
@@ -100,26 +106,26 @@
         </p>
       </article>
     </section>
-    <!--section fullwidth-->
+    <!----section fullwidth----->
     <section class="fullwidth">
-      <div class="fullwidth__header">
-        <img class= "fullwidth__img" src="../../assets/images/illustration-stay-productive.png" alt="">
-      </div>
-      <div class="fullwidth__content">
-        <h2 class="fullwidth__title">Stay productive, wherever you are</h2>
-        <p class="fullwidth__paragraph">
-          Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-          storage needs.
-        </p>
-        <p class="fullwidth__paragraph">
-          Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-          attachments required.
-        </p>
+      <header class="fullwidth__header">
+        <img class= "img fullwidth__img" src="../../assets/images/illustration-stay-productive.png" alt="">
+      </header>
+      <h2 class="fullwidth__title">Stay productive, wherever you are</h2>
+      <p class="fullwidth__paragraph">
+        Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+        storage needs.
+      </p>
+      <p class="fullwidth__paragraph">
+        Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+        attachments required.
+      </p>
+      <div class="fullwidth__link-container">
         <a class="fullwidth__link" href="#">See how Fylo works</a>
         <img class="fullwidth___icon" src="../../assets/images/icon-arrow.svg" alt="">
       </div>
     </section>
-    <!--section comments-->
+    <!----section comments----->
     <section class="comments">
       <img class="comments__icon" src="../../assets/images/bg-quotes.png" alt="">
       <article class="comments__card">
@@ -160,23 +166,25 @@
             <span class="comments__place">Founder & CEO, Huddle</span>
           </p>
         </footer>
-        <!--section sign up-->
-        <section class="sign-up">
-          <h2 class="sign-up__title">Get early access today</h2>
-          <p class="sign-up__paragraph">
-            It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-            questions, our support team would be happy to help you. 
-          </p>
-          <form class="sign-up__form" action="#">
-            <input class="sign-up__input" type="email">
-            <input class="sign-up__button" type="submit" value="Get Started For Free">
-          </form>
-        </section>
-      </article>  
+      </article> 
     </section>
+    <!----section sign up----->
+    <section class="sign-up">
+      <h2 class="sign-up__title">Get early access today</h2>
+        <p class="sign-up__paragraph">
+          It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+          questions, our support team would be happy to help you. 
+        </p>
+      <form class="sign-up__form" action="#">
+          <input class="sign-up__input" type="email">
+          <input class="button sign-up__button" type="submit" value="Get Started For Free">
+      </form>
+    </section> 
   </main>
-  <!--footer-->
+
+  <!----------------Footer----------------------->
   <footer class="footer">
+    <!---------Contact nav----------->
     <img class="logo footer__logo" src="../../assets/images/logo.svg" alt="">
     <ul class="contacts footer__contacts">
       <li class="contacs__contact">
@@ -199,32 +207,33 @@
         </p>
       </li>
     </ul>
-    <nav class="footer__nav">
-      <ul class="footer__links">
-        <li class="footer__link"> About Us</li>
-        <li class="footer__link">Jobs</li>
-        <li class="footer__link">Press</li>
-        <li class="footer__link">Blog</li>
-        <li class="footer__link">Contact Us</li>
-        <li class="footer__link">Terms</li>
-        <li class="footer__link">Privacy</li>
+    <!---------Links nav----------->
+    <nav class="nav footer__nav">
+      <ul class="nav__links footer__links">
+        <li class="nav__link footer__link"> About Us</li>
+        <li class="nav__link footer__link">Jobs</li>
+        <li class="nav__link footer__link">Press</li>
+        <li class="nav__link footer__link">Blog</li>
+        <li class="nav__link footer__link">Contact Us</li>
+        <li class="nav__link footer__link">Terms</li>
+        <li class="nav__link footer__link">Privacy</li>
       </ul>
-
     </nav>
+    <!---------Links social media----------->
     <ul class="footer__icons">
       <li class="social-media footer__social-media">
         <div class="social-media__container">
-          <i class="fab fa-facebook-f"></i>
+          <i class="social-media__facebook fab fa-facebook-f"></i>
         </div>
       </li>
       <li class="social-media footer__social-media">
         <div  class="social-media__container">
-          <i class="fab fa-twitter"></i>
+          <i class="social-media__twitter fab fa-twitter"></i>
         </div>
       </li>
       <li class="social-media footer__social-media">
         <div  class="social-media__container">
-          <i class="fab fa-instagram"></i>
+          <i class="social-media__instagram fab fa-instagram"></i>
         </div>
       </li>
     </ul>
