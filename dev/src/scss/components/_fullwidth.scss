@@ -1,3 +1,25 @@
 .fullwidth {
     height: 100vh;
 }
+
+.fullwidth__title {
+    font-family: $main-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "fullwidth-title-font-size");
+    font-weight: $main-bold-font;
+    text-align: left;
+}
+
+.fullwidth__paragraph {
+    font-family: $body-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "fullwidth-paragraph-font-size");
+    font-weight: $body-regular-font;
+    line-height: 1.7;
+    text-align: left;
+}
+
+.fullwidth__link {
+    font-family: $body-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "fullwidth-links-font-size");
+    font-weight: $body-regular-font;
+    text-align: left;
+}

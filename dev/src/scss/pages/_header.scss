@@ -1,3 +1,47 @@
 .header {
     height: 100vh;
+    &__nav {
+        width: 100%;
+        position: fixed;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 6vh;
+        height: 6vh;
+        background-color: map-get($map: $primary-colors, $key: "main-background");
+        & .header__logo {
+            align-self: center;
+        }
+        & .header__links {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: flex-end;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5em;
+        }
+    }
 }
+
+.header__link {
+    font-size: map-get($map: $font-size-sm, $key: "header-links-font-size");
+}
+
+.header__title {
+    font-family: $main-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "header-title-font-size");
+    font-weight: $main-bold-font;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.header__paragraph {
+    font-family: $body-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "header-paragraph-font-size");
+    font-weight: $body-regular-font;
+    line-height: 1.4;
+    text-align: center;
+}
+
+
+
+

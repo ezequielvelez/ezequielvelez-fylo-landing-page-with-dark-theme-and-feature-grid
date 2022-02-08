@@ -49,6 +49,46 @@ p {
 .header {
   height: 100vh;
 }
+.header__nav {
+  width: 100%;
+  position: fixed;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  grid-template-rows: 6vh;
+  height: 6vh;
+  background-color: #181f2a;
+}
+.header__nav .header__logo {
+  align-self: center;
+}
+.header__nav .header__links {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.header__link {
+  font-size: 0.7em;
+}
+
+.header__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.header__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9em;
+  font-weight: 400;
+  line-height: 1.4;
+  text-align: center;
+}
 
 .footer {
   height: 100vh;
@@ -56,6 +96,21 @@ p {
 
 .cards {
   height: 100vh;
+}
+
+.cards__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.cards__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
 }
 
 .testimonials {
@@ -66,9 +121,42 @@ p {
   height: 100vh;
 }
 
+.fullwidth__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.fullwidth__paragraph {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8em;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: left;
+}
+
+.fullwidth__link {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  text-align: left;
+}
+
 .img {
   width: 100%;
   height: auto;
+}
+
+.logo {
+  width: 6em;
+  height: auto;
+}
+
+.button {
+  font-family: "Raleway", sans-serif;
+  font-size: 0.9em;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */

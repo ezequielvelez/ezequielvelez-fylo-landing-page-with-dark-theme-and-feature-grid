@@ -1,0 +1,5 @@
+.button {
+    font-family: $main-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "button-font-size");
+    font-weight: $main-bold-font;
+}
