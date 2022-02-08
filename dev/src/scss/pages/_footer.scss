@@ -1,3 +1,12 @@
 .footer {
     height: 100vh;
 }
+
+.footer__link {
+    font-family: $body-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "location-paragraph-font-size");
+    font-weight: $body-regular-font;
+    line-height: 1.7;
+    text-align: left;
+}
+
