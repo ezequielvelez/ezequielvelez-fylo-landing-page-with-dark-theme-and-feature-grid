@@ -2,10 +2,16 @@
 @import "abstracts/fonts";
 
 @import "base/base";
+@import "base/typo";
+
+@import "pages/header";
+@import "pages/footer";
 
 @import "components/cards";
 @import "components/testimonials";
 @import "components/sign-up";
 @import "components/fullwidth";
+@import "components/images";
+
 
 

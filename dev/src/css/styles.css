@@ -9,11 +9,15 @@ html {
 }
 
 body {
-  background-color: #181f2a;
-  color: white;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 400;
+  background-color: #181f2a;
+  color: white;
 }
 
 h1,
@@ -40,6 +44,31 @@ h3,
 p {
   margin: 0;
   padding: 0;
+}
+
+.header {
+  height: 100vh;
+}
+
+.footer {
+  height: 100vh;
+}
+
+.cards {
+  height: 100vh;
+}
+
+.testimonials {
+  height: 100vh;
+}
+
+.fullwidth {
+  height: 100vh;
+}
+
+.img {
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=styles.css.map */
