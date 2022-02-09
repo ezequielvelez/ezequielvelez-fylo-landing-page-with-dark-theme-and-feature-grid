@@ -1,0 +1,14 @@
+.main__title {
+    font-family: $main-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "main-title-font-size");
+    font-weight: $main-bold-font;
+    line-height: 1.2;
+    text-align: center;
+}
+
+
+.titles {
+    font-family: $main-family-font;
+    font-size: map-get($map: $font-size-sm, $key: "titles-font-size");
+    font-weight: $main-bold-font;
+}

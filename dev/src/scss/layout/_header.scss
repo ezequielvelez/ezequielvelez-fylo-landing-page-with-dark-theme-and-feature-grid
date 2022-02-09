@@ -1,5 +1,7 @@
 .header {
     height: 100vh;
+    padding-left: .5em;
+    padding-right: .5em;
     &__nav {
         width: 100%;
         position: fixed;
@@ -13,35 +15,21 @@
             align-self: center;
         }
         & .header__links {
+            align-self: end;
             display: flex;
             flex-flow: row nowrap;
             justify-content: flex-end;
-            justify-content: center;
             align-items: center;
-            gap: 1.5em;
+            gap: 1.2em;
+            margin-left: 1em;
+            margin-right: 1em;
         }
     }
-}
-
-.header__link {
+}.header__link {
     font-size: map-get($map: $font-size-sm, $key: "header-links-font-size");
 }
 
-.header__title {
-    font-family: $main-family-font;
-    font-size: map-get($map: $font-size-sm, $key: "header-title-font-size");
-    font-weight: $main-bold-font;
-    line-height: 1.2;
-    text-align: center;
-}
 
-.header__paragraph {
-    font-family: $body-family-font;
-    font-size: map-get($map: $font-size-sm, $key: "header-paragraph-font-size");
-    font-weight: $body-regular-font;
-    line-height: 1.4;
-    text-align: center;
-}
 
 
 

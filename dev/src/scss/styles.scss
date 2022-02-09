@@ -4,8 +4,8 @@
 @import "base/base";
 @import "base/typo";
 
-@import "pages/header";
-@import "pages/footer";
+@import "layout/header";
+@import "layout/footer";
 
 @import "components/cards";
 @import "components/testimonials";
@@ -16,6 +16,8 @@
 @import "components/button";
 @import "components/location";
 @import "components/social-media";
+@import "components/paragraphs";
+@import "components/titles";
 
 
 
